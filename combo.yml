@@ -1,0 +1,5 @@
+# Generated from the combos section of randomcontainers/imagemagick package.yml by randomcontainers/ci.
+# Do not edit; change package.yml in randomcontainers/imagemagick instead.
+name: imagemagick-ghostscript
+owner: imagemagick
+with: [ghostscript]
