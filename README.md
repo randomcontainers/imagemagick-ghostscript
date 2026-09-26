@@ -46,7 +46,7 @@ The working directory is `/work`. The image runs as UID 1000, and any other UID 
 
 | Package | License | Repository |
 |---|---|---|
-| [ImageMagick](https://imagemagick.org/) | `ImageMagick` | [randomcontainers/imagemagick](https://github.com/randomcontainers/imagemagick) |
+| [ImageMagick](https://imagemagick.org/) | `ImageMagick AND LGPL-3.0-or-later` | [randomcontainers/imagemagick](https://github.com/randomcontainers/imagemagick) |
 | [Ghostscript](https://www.ghostscript.com/) | `AGPL-3.0-or-later AND Apache-2.0 AND BSD-3-Clause AND FTL AND ISC AND MIT AND Zlib` | [randomcontainers/ghostscript](https://github.com/randomcontainers/ghostscript) |
 
 ## Verifying
@@ -66,10 +66,11 @@ The images are rebuilt when a new image of a package above is published, for exa
 
 ## Licenses
 
-The image contents are licensed under `ImageMagick AND AGPL-3.0-or-later AND Apache-2.0 AND BSD-3-Clause AND FTL AND ISC AND MIT AND Zlib`. The version of each package is in `/usr/local/share/randomcontainers/<package>/version` and its license files are in `/usr/local/share/randomcontainers/<package>/licenses/`.
+The image contents are licensed under `ImageMagick AND LGPL-3.0-or-later AND AGPL-3.0-or-later AND Apache-2.0 AND BSD-3-Clause AND FTL AND ISC AND MIT AND Zlib`. The version of each package is in `/usr/local/share/randomcontainers/<package>/version` and its license files are in `/usr/local/share/randomcontainers/<package>/licenses/`.
 
 Corresponding source:
 
+- ImageMagick: [randomcontainers/imagemagick](https://github.com/randomcontainers/imagemagick#licenses) has a `v<version>` release with the source of each ImageMagick version it builds.
 - Ghostscript: [randomcontainers/ghostscript](https://github.com/randomcontainers/ghostscript#licenses) has a `v<version>` release with the source of each Ghostscript version it builds.
 
 Ubuntu and Alpine packages keep their own licenses. The SBOM of each platform image lists them with their versions:
