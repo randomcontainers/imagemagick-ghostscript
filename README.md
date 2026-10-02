@@ -12,7 +12,7 @@ These are unofficial builds, not affiliated with or endorsed by the upstream pro
 docker run --rm --user "$(id -u):$(id -g)" -v "$PWD:/work" ghcr.io/randomcontainers/imagemagick-ghostscript input.png -quality 80 output.webp
 ```
 
-The same images can also be pulled as `randomcontainers.com/imagemagick-ghostscript`. The examples in the [imagemagick README](https://github.com/randomcontainers/imagemagick#readme) work with this image too.
+The examples in the [imagemagick README](https://github.com/randomcontainers/imagemagick#readme) work with this image too.
 
 ## Tags
 
